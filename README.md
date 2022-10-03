@@ -62,3 +62,5 @@ python3 manage.py migrate
 ```bash
 python3 manage.py runserver
 ```
+
+![badge](https://github.com/imakswell/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
