@@ -63,4 +63,15 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
+## Основные точки доступа
+1. Админка:          <br>`84.201.128.16/admin`
+2. API v1.0:         <br>`127.0.0.1/api/v1`
+3. Все произведения: <br>`84.201.128.16/api/v1/titles`
+4. Все жанры:        <br>`84.201.128.16/api/v1/genres`
+5. Все пользователи: <br>`84.201.128.16/api/v1/users` (нужен токен авторизации)
+6. Все категории:    <br>`84.201.128.16/api/v1/categories`
+7. Все отзывы:       <br>`84.201.128.16/api/v1/titles/<titile_id>/reviews/` (где <titile_id> - целое числа)
+8. Все комментарии:  <br>`84.201.128.16/api/v1/titles/<titile_id>/reviews/<reviews_id>/comments` (где <titile_id> и <reviews_id> - целые числа)
+
+
 ![badge](https://github.com/imakswell/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
